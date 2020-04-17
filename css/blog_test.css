@@ -1,0 +1,109 @@
+/*公用样式*/
+* {
+    font-family: "mononoki Nerd Font Mono", "Microsoft YaHei";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/*去掉a标签下划线*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*左边栏样式*/
+.left {
+    width: 20%;
+    height: 100%;
+    background: rgb(76, 77, 76);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+/*头像样式*/
+.header-img {
+    height: 128px;
+    width: 128px;
+    border: 3px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header-img>img {
+    max-width: 128px;
+}
+
+/*blog-name*/
+.blog-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*blog-info*/
+.blog-info {
+    color: white;
+    text-align: center;
+    border: 2px dashed white;
+    margin: 5px;
+}
+
+/*链接组*/
+.blog-links,
+.blog-tags {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog-tags a:before {
+    content: "#";
+}
+
+/*右边栏样式*/
+.right {
+    width: 80%;
+    height: 1000px;
+    background: rgb(238, 238, 237);
+    float: right;
+}
+
+.article-list {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+
+.article {
+    background: white;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    border-left: 3px solid red;
+}
+
+.article-name {
+    display: inline-block;
+    padding: 15px;
+}
+
+/*文章发布时间*/
+.article-date {
+    float: right;
+}
+
+.article-info {
+    padding: 15px;
+}
+
+.article-tag {
+    padding: 15px;
+    margin-left: 10px;
+    border-top: 1px solid #eee;
+}
